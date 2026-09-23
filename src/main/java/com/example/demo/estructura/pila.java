@@ -13,6 +13,9 @@ public pila (){
     this.capacidad = 30;
     this.tope = -1 ;
     this.arreglo = new estudiante[capacidad];
+    
+    agregar(new estudiante("Carlos Perez", "A001", 20));
+        agregar(new estudiante("Maria Gomez", "A002", 22));
 }
 
 public void agregar(estudiante estudiante){
@@ -46,3 +49,4 @@ public estudiante[] mostrar(){
 }
 
 }
+
